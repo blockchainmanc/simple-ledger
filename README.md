@@ -6,9 +6,9 @@ You can't trust anybody to keep this electronically on a centralised service so 
 
 Only one person, the chief accountant, can make entries and "owns" the smart contract (and has the relevant skills to make direct transactions via his wallet of choice).
 
-The rest of the cartel want to see the ledger entries to ensure their guys are getting the correct amounts.
+The rest of the cartel want to see the ledger entries (via their mobile devices or at their desktops) to ensure their guys are getting the correct amounts.
 
-The cartel are very confident and are happy with the public nature of the Blockchain transactions as they use a two letter code for all their dodgy counterparts.
+The cartel are very cocky and are happy with the public nature of the Blockchain transactions as they use a two letter code for all their dodgy counterparts.
 
 ## Smart Contract
 
