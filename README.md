@@ -22,6 +22,8 @@ The ledger is held as a simple `mapping (bytes2 => int256)`, for example, `"AG" 
 
 ## Read-only Dapp
 
+*Remember reads on a Blockchain are free*
+
 [simple_ledger.html](https://github.com/andygray/simple-ledger/blob/master/simple_ledger.html) is a one pager that connects to a hosted node provided by [Infura](https://infura.io/) and uses [ethers.js](https://github.com/ethers-io/ethers.js/) a JavaScript helper library to interact with the Ethereum Blockchain.
 
 In our application the contract specifics are configured and then calls to the [SimpleLedger](https://github.com/andygray/simple-ledger/blob/master/contracts/SimpleLedger.sol) contract return entries that can be displayed.
