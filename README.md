@@ -12,15 +12,25 @@ The cartel are very cocky and are happy with the public nature of the Blockchain
 
 ## Smart Contract
 
-Called [SimpleLedger]()
+A contract called [SimpleLedger](https://github.com/andygray/simple-ledger/blob/master/contracts/SimpleLedger.sol) has one function `recordEntry` that if you "own" the contract will commit new entries to the ledger.
+
+The ledger is held as a simple `mapping (bytes2 => int256)`, for example, `"AG" -> 2543`
+
+### Test-chain Deployments 
 
 [Ropsten @ 0x0C3dc5ec9106CF7c5702430e727De76786fb3C9e](https://ropsten.etherscan.io/address/0x0C3dc5ec9106CF7c5702430e727De76786fb3C9e)
 
 ## Read-only Dapp
 
-[simple_ledger.html]() connects to a hosted node provided by Infura and uses [ether.js]() a helper library to interact with the Ethereum Blockchain.
+[simple_ledger.html](https://github.com/andygray/simple-ledger/blob/master/simple_ledger.html) is a one pager that connects to a hosted node provided by [Infura](https://infura.io/) and uses [ethers.js](https://github.com/ethers-io/ethers.js/) a JavaScript helper library to interact with the Ethereum Blockchain.
 
-[JQuery]() is used solely to process the results and manipulate the page DOM and display information from the Blockchain.
+In our application the contract specifics are configured and then calls to the [SimpleLedger](https://github.com/andygray/simple-ledger/blob/master/contracts/SimpleLedger.sol) contract return entries that can be displayed.
+
+[JQuery](http://jquery.com/) is used solely to process the results and manipulate the page DOM and display information from the Blockchain.
+
+### Hosted Deployment
+
+TBC
 
 
 
