@@ -12,9 +12,9 @@ The cartel are very cocky and are happy with the public nature of the Blockchain
 
 ## Smart Contract
 
-A contract called [SimpleLedger](https://github.com/andygray/simple-ledger/blob/master/contracts/SimpleLedger.sol) has one function `recordEntry` that if you "own" the contract will commit new entries to the ledger.
+A contract called [SimpleLedger](https://github.com/andygray/simple-ledger/blob/master/contracts/SimpleLedger.sol) has one function `recordEntry` that can be called by the `owner` of the contract to commit new entries to the ledger.
 
-The ledger is held as a simple `mapping (bytes2 => int256)`, for example, `"AG" -> 2543`
+The ledger is held as a simple `mapping (bytes2 => int256)` data structure, for example, `"AG" -> 2543`
 
 ### Test-chain Deployments 
 
